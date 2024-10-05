@@ -20,7 +20,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'http://localhost:3000',
+    origin:'https://chatapp-1-bnnk.onrender.com',
     credentials:true
 };
 app.use(cors(corsOption)); 

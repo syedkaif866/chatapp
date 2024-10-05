@@ -8,7 +8,9 @@ import store from './redux/store';
 import { PersistGate } from 'redux-persist/integration/react'
 import { persistStore } from 'redux-persist';
 
-export const BASE_URL="http://localhost:8080"
+// export const BASE_URL="http://localhost:8080"
+export const BASE_URL="https://chatapp-1-bnnk.onrender.com"
+
 
 
 let persistor = persistStore(store);
